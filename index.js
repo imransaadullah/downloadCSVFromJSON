@@ -1,11 +1,11 @@
-export const underscoreToCapitalizedWords = (variable) => {
+const underscoreToCapitalizedWords = (variable) => {
   return variable
     .split(`_`)
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
 };
 
-export const camelToCapitalizedWords = (variable) => {
+const camelToCapitalizedWords = (variable) => {
   return variable
     .replace(/([a-z])([A-Z])/g, "$1 $2")
     .split(" ")
@@ -89,4 +89,4 @@ const downloadCSVFromJSON = (
   }
 };
 
-export default downloadCSVFromJSON;
+module.exports = downloadCSVFromJSON;
