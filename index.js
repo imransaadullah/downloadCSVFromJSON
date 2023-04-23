@@ -89,4 +89,4 @@ const downloadCSVFromJSON = (
   }
 };
 
-module.exports = downloadCSVFromJSON;
+exports = downloadCSVFromJSON;
