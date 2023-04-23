@@ -85,4 +85,4 @@ This example will export the `jsonData` array to a CSV file called `data.csv`, w
 
 ## License
 
-This package is licensed under the MIT license.
+This package is licensed under the ISC license.
